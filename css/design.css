@@ -1,0 +1,39 @@
+.title {
+    font-size: 48px;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.title__text {
+    margin-bottom: 83px;
+}
+
+.design {
+    background-color: #EEEFF1;
+}
+
+h1 {
+    margin:0;
+    font-weight: 500;
+    size:48px;
+}
+
+.design-container {
+    max-width:540px;
+    padding: 20px 0 141px 0;
+}
+
+.ttu {
+    text-transform: uppercase;
+    height:65px;
+    width:225px;
+    background-color: #34547A;
+    color:#FFFFFF;
+    border: 0px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 16px 2px 23px 0;
+}
+

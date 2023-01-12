@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 26px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.video {
+    padding-bottom: 92px;
+}
+
+#modal {
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:rgba(0,0,0,0.5);
+    display: none;
+}
+
+#modal.active {
+    display: block;
+}
+
+.modal__body {
+    max-width:500px;
+    margin: auto;
+    background-color: #fff;
+    margin-top:30%;
+    padding:20px;
+
+}
+
+#modal_call {
+    max-width:200px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+#modal_call button {
+    height:40px;
+    width:100px;
+    font-size: 9px;
+    
+}
+
+#modal_call button:hover {
+    transform: scale(1.1)
+}
+
+.modal__title {
+    position:relative;
+}
+
+.modal__title button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 100%;
+    border: 1px solid blue;
+    cursor: pointer;
+    
+}
+
+.call-back {
+    position:absolute;
+    right:0;
+    bottom:0;
+    border:2px solid blue;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.img-holder img {
+    display: block;
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    top:50%;   
+    right: 0;
+    transform: translateY(-50%);
+    margin:0px
+}
+
+.relative {
+    position:relative;
+}
+
+.links {
+    position: absolute;
+    top:0;
+    left:0;
+    border:2px solid #34547A;
+   
+    padding:5px;
+    color:white;
+    background-color: #c24fb3;
+}
+
+.links a {
+    color:white;
+    display: inline-block;
+    transform: translateX(10px);
+    /* transition: all ease-in-out 5s; */
+    
+}
+
+
+.animation-button:hover {
+    animation: first 2s infinite;
+}
+
+
+
+.tree {
+    width:200px;
+    background-color: lightblue;
+    font-size:0px;
+    line-height: 0px;
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    z-index: 1;
+}
+
+.tree:hover .christmas-balls{
+    transform: scale(1.4);
+    animation: lights 1s infinite;
+}
+
+
+.rotate {
+    transform: rotateY(180deg);
+}
+
+.tree_side {
+    width:47%;
+    
+    display: inline-block;
+}
+
+
+.branch {
+    border-bottom: 10px solid green;
+    width:70px;
+    transform: rotate(150deg);
+    height: 37px;
+    float:right;
+    margin-right: -5px;
+    animation: wind 2s infinite;
+}
+
+
+.branch.first {
+    width:52px;
+}
+
+.branch.second {
+    width:63px;
+} 
+
+
+
+.tree_main {
+    background-color: brown; 
+    display: inline-block;
+    width:6%;
+    height: 135px;
+    
+}
+
+.christmas-balls {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: gold;
+    border-radius: 50%;
+    animation: lights 2s infinite;
+    
+}
+
+.christmas-balls.one {
+    left: 71px;
+}
+
+.christmas-balls.two{
+    bottom: 85px;
+    left: 46px;
+}
+
+
+.christmas-balls.three{
+    bottom: 65px;
+    left: 70px;
+}
+
+.christmas-balls.four{
+    bottom: 46px;
+    left: 40px;
+}
+
+.christmas-balls.five{
+    bottom: 6px;
+    left: 33px;
+}
+
+
+.christmas-balls.six{
+    bottom: 23px;
+    left: 62px;
+}
+
+@keyframes lights{
+    0% {
+        
+        background-color: gold;
+    }    
+
+    25% {
+        
+        background-color: red
+    }
+
+    50% {
+        
+        background-color:white;
+    }
+
+    75% {
+        
+        background-color: red;
+    }
+
+    100% {   
+        
+        background-color: gold;
+    }
+}
+
+
+@keyframes wind{
+    0% {
+        transform: rotate(150deg);
+    }    
+
+    50% {
+        
+        transform: rotate(158deg);
+    }
+
+    100% {
+        transform: rotate(150deg);
+    }  
+}

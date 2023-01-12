@@ -1,0 +1,20 @@
+.section {
+    padding:118px 0 87px 0;
+    background-color: #FFFFFF;
+}
+
+.section__container {
+    max-width:540px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.section__title {
+    font-size:32px;
+    font-weight:500;
+    padding-bottom:50px;
+}
+
+.section.section-work {
+    padding:107px 0 43px 0;
+}

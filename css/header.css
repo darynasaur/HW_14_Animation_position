@@ -1,0 +1,19 @@
+header {
+    background-color: #EEEFF1;
+}
+
+a {
+    text-transform: uppercase;
+    padding-right:38px;
+    text-decoration: none;
+    color:#000000;
+    letter-spacing: 0.1em;
+}
+ 
+nav {
+    padding:79px 0 151px 0;
+}
+
+.homepage {
+    color: #34547A
+}

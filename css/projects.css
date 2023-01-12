@@ -1,0 +1,33 @@
+.projects {
+    background-color:#34547A;
+}
+
+.row {
+    margin: 0 -2%;
+}
+
+.projects_item {
+    display: inline-block;
+    width: 12%;
+    padding: 99px 0px 93px 5px;
+    margin: 0 2%;
+}
+
+.projects_text {
+    display: inline-block;
+}
+
+.projects_text-40 {
+    font-weight: 500;
+    font-size: 21px;
+    color:#FFFFFF;
+    line-height: 25px;
+}
+
+.projects_text-projects {
+    color:#FFFFFF;
+}
+
+img {
+    margin-right: 20px;
+}

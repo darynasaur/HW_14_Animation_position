@@ -1,0 +1,20 @@
+footer {
+    background-color:#34547A;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 50px 0 11px 7px;
+    color:#FFFFFF;
+    margin: 0;
+}
+
+.footer_text {
+    color:#FFFFFF;
+    font-size: 13px;
+    line-height: 21px;
+    padding: 0px 0 50px 7px;
+    margin: 0;
+}
